@@ -9,6 +9,7 @@
 Multiway trees.
 
 > data Tree elem = Node elem [Tree elem]
+>   deriving(Show)
 
 < size, depth ∷ Tree elem → Integer
 
