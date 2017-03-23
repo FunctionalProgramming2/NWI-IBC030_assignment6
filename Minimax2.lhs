@@ -37,6 +37,12 @@ exercise 2.1
 exercise 2.2
 ============
 
+> size, depth :: Tree elem -> Integer
+> size = fold $ \(NODE e es) -> 1 + sum es
+> depth = fold $ addDepths
+>   where addDepths (NODE e []) = 1
+>         addDepths (NODE e es) = 1 + maximum es
+
 exercise 2.3
 ============
 
