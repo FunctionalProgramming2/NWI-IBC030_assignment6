@@ -24,8 +24,15 @@ author: Anna Tökés s1005628
 exercise 2.1
 ============
 
-> instance Functor Tree where
->   fmap f (Node e ns) = Node (f e) $ map (fmap f) ns
+> instance Functor (TREE elem) where
+>   fmap f (NODE e st) = NODE e $ map f st
+
+> data TREE elem tree = NODE elem [tree]
+
+> instance Base (TREE elem) where
+>   type Rec (TREE elem) = Tree elem
+>   inn (NODE e ns) = Node e ns
+>   out (Node e ns) = NODE e ns
 
 exercise 2.2
 ============
