@@ -24,6 +24,10 @@ author: Anna Tökés s1005628
 exercise 2.1
 ============
 
+> instance Functor Tree where
+>   fmap f (Node e []) = Node (f e) []
+>   fmap f (Node e ns) = Node (f e) $ map (fmap f) ns
+
 exercise 2.2
 ============
 
