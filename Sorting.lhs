@@ -39,3 +39,7 @@ Flattening a search tree.
 
 > wither ∷ (Ord a) ⇒ TREE a (x × List a x) → List a (x + TREE a x)
 > wither = undefined
+
+--------------------------------------------------------------------------------
+author: Hendrik Werner s4549775
+author: Anna Tökés s1005628

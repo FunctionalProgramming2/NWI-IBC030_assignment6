@@ -15,3 +15,7 @@ Multiway trees.
 < gametree ∷ (position → [position]) → (position → Tree position)
 
 < winning ∷ Tree position → Bool
+
+--------------------------------------------------------------------------------
+author: Hendrik Werner s4549775
+author: Anna Tökés s1005628
