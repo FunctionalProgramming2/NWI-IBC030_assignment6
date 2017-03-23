@@ -25,6 +25,9 @@ exercise 1.1
 exercise 1.2
 ============
 
+> myFold :: (List elem ans -> ans) -> [elem] -> ans
+> myFold f = myFoldr (\a s -> f (Cons a s)) (f Nil)
+
 exercise 1.3
 ============
 (optional)
