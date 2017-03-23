@@ -18,6 +18,10 @@ author: Anna Tökés s1005628
 exercise 1.1
 ============
 
+> myFoldr f e = fold (\x -> case x of
+>                               Nil -> e
+>                               (Cons a b) -> f a b)
+
 exercise 1.2
 ============
 
