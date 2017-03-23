@@ -43,3 +43,16 @@ Flattening a search tree.
 --------------------------------------------------------------------------------
 author: Hendrik Werner s4549775
 author: Anna Tökés s1005628
+
+exercise 3.1
+============
+
+exercise 3.2
+============
+
+exercise 3.3
+============
+
+exercise 3.4
+============
+(optional)
